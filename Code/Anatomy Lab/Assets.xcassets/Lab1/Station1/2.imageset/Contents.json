@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "lab1_sta_1_labeled2.jpg",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

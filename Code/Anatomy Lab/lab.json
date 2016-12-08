@@ -1,0 +1,4027 @@
+{
+  "labs": [
+    {
+      "metadata": [
+        {
+          "title": "Lab 1",
+          "subtitle": "Integumentary system",
+          "categories": [
+            "Integumentary system",
+            "skin"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Integumentary system",
+              "subtitle": "Dermis / Epidermis",
+              "categories": [
+                "skin",
+                "dermis",
+                "epidermis"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "epidermis": [
+                {
+                  "stratum basale/stratum germinativum": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "stratum spinosum": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                },
+                {
+                  "stratum granulosum": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                },
+                {
+                  "stratum corneum": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                }
+              ]
+            },
+            {
+              "dermis": [
+                {
+                  "papillary layer": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "reticular layer": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                }
+              ]
+            },
+            {
+              "hypodermis": [
+                {
+                  "adipose cells": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                }
+              ]
+            },
+            {
+              "accesory structures": [
+                {
+                  "sebaceous gland": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                },
+                {
+                  "duct of sebaceous gland": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                },
+                {
+                  "hair root": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "hair shaft": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/2"
+                  }
+                },
+                {
+                  "hair papilla": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "sweat gland": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "sweat pore": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "sweat gland duct": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "tactile corpuscule/Meissner's corpuscle": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "lamellated corpuscule/Pacini's corpuscle": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                },
+                {
+                  "arrector pili muscle": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station1/1"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 1: Integumentary system",
+              "url": "https://www.youtube.com/embed/_nX_0RjWW_E",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "description": "Description"
+                }
+              ],
+              "questions": [
+                {
+                  "images": [
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station1/Quiz/1"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Sweat Pore"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Sweat Gland Duct"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Stratum Granulosum"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Sebaceous Gland"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Papillary Layer"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Hair Shaft"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station1/Quiz/2"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Hair Root"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Stratum Spinosum"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Sweat Gland"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Lamellated Corpuscle/Pacini’s Corpuscle"
+                        },
+                        {
+                          "label": "E",
+                          "term": " Hair Papilla"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Reticular Layer"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station1/Quiz/3"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Arrector Pili Muscle"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Adipose Tissue/Adipose Cells"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Stratum Corneum"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Duct of Sebaceous Gland"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Stratum Basale/Stratum Germinativum"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Tactile Corpuscle/Meissner’s Corpuscle"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Skeletal system (Axial Division)",
+              "subtitle": "Cranium",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "frontal bone": [
+                {
+                  "supraorbital foramen": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/7"
+                  }
+                }
+              ]
+            },
+            {
+              "parietal bones": [
+                {
+                  "parietal bones": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/6"
+                  }
+                }
+              ]
+            },
+            {
+              "occipital bone": [
+                {
+                  "foramen magnun": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/4"
+                  }
+                },
+                {
+                  "hypoglossal canal": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/4"
+                  }
+                },
+                {
+                  "jugular foramen": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/4"
+                  }
+                },
+                {
+                  "occipital condyles": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/3"
+                  }
+                }
+              ]
+            },
+            {
+              "nasal bones": [
+                {
+                  "nasal bones": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/7"
+                  }
+                }
+              ]
+            },
+            {
+              "lacrimal bones": [
+                {
+                  "lacrimal bones": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/6"
+                  }
+                }
+              ]
+            },
+            {
+              "maxilla bones": [
+                {
+                  "infraorbital foramen": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/7"
+                  }
+                }
+              ]
+            },
+            {
+              "palatine bones": [
+                {
+                  "palatine bones": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/3"
+                  }
+                }
+              ]
+            },
+            {
+              "mandible": [
+                {
+                  "madibular condyle": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/2"
+                  }
+                },
+                {
+                  "mandibular foramen": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/3"
+                  }
+                },
+                {
+                  "mental foramen": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/6"
+                  }
+                }
+              ]
+            },
+            {
+              "sutures": [
+                {
+                  "sagittal suture": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/5"
+                  }
+                },
+                {
+                  "coronal suture": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/5"
+                  }
+                },
+                {
+                  "squamosal suture": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/6"
+                  }
+                },
+                {
+                  "lambdoidal suture": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station2/5"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 2 Video",
+              "url": "https://www.youtube.com/embed/n1258whjvv0",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "images": [
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0001"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Squamosal"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Parietal Bones"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Coronal Suture"
+                    },
+                    {
+                      "label": "D",
+                      "term": "Lacrimal Bone"
+                    },
+                    {
+                      "label": "E",
+                      "term": "Mental Foramen"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/IMG_0002"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Foramen Magnum"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Jugular Foramen"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Hypoglossal Canal"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0003"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Occipital Condyles"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Foramen Magnum"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Hypoglossal Canal"
+                    },
+                    {
+                      "label": "D",
+                      "term": "Palatine Bones"
+                    },
+                    {
+                      "label": "E",
+                      "term": "Mandibular Foramen"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0004"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Mandibular Condyle"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Mandible"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Occipital Bone"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0005"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Sagittal Suture"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Coronal Suture"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Frontal Bone"
+                    },
+                    {
+                      "label": "D",
+                      "term": "Parietal Bone"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0006"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Frontal Bone"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Supraorbital Foramen"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Infraorbital Foramen"
+                    },
+                    {
+                      "label": "D",
+                      "term": "Maxilla"
+                    },
+                    {
+                      "label": "E",
+                      "term": "Mental Foramen"
+                    },
+                    {
+                      "label": "F",
+                      "term": "Nasal Bones"
+                    }
+                  ]
+                },
+                {
+                  "metadata": [
+                    {
+                      "imagename": "Lab1/Station2/Quiz/IMG_0007"
+                    }
+                  ],
+                  "labels": [
+                    {
+                      "label": "A",
+                      "term": "Parietal Bone"
+                    },
+                    {
+                      "label": "B",
+                      "term": "Lambdoidal Suture"
+                    },
+                    {
+                      "label": "C",
+                      "term": "Sagittal Suture"
+                    },
+                    {
+                      "label": "D",
+                      "term": "Occipital Bone"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Skeletal system (Axial Division)",
+              "subtitle": "Cranium",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "ethmoid bone": [
+                {
+                  "cribiform plate": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "crista galli": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "perpendicular plate": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "vomer bone": [
+                {
+                  "vomer bone": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "nasal septum": [
+                {
+                  "nasal septum": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "zygomatic bones": [
+                {
+                  "zygomatic bones": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "temporal bones": [
+                {
+                  "internal acoustic (auditory) meatus": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "external acoustic (auditory) meatus": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "mastoid process": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "styloid process": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "mandibular fossa": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "carotid canal": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "sphenoid bone": [
+                {
+                  "superior orbital fissure": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "inferior orbital fissure": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "optic canal": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "foramen rotundum": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "foramen ovale": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "foramen spinosum": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "sella turcica": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 3 Video",
+              "url": "https://www.youtube.com/embed/2Flv1_FlSmM",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "images": [
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_000"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "External acoustic (auditory) meatus"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Temporal Bone"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Zygomatic bone"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Styloid process"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_001"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Mandibular Fossa"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Styloid Process"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Carotid Canal"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_002"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Superior orbital fissure"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Nasal Septum"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Zygomatic bone"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Inferior orbital fissure"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_003"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Inferior orbital Fissure"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Optic Canal"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Zygomatic Bone"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_004"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Sella turcica"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Optic Canal"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Internal acoustic (auditory) meatus"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Foramen Rotundum"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Cribriform Plate "
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_005"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "B",
+                          "term": "Sella Turcica"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Foramen Spinosum"
+                        },
+                        {
+                          "label": "G",
+                          "term": "Optic Canal"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Crista Galli "
+                        },
+                        {
+                          "label": "E",
+                          "term": " Foramen Rotundum\n"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_006"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Styloid Process"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Mandibular Fossa"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Mastoid Process"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Carotid Canal"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Perpendicular Plate "
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_007"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Ethmoid"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Sphenoid Bone"
+                        },
+                        {
+                          "label": "C",
+                          "term": "External acoustic (auditory) meatus"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Temporal Bone"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Zygomatic Bone "
+                        },
+                        {
+                          "label": "F",
+                          "term": "Nasal Bones "
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station3/Quiz/File_008"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Perpendicular Plate"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Superior Orbital Fissure"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Foramen Rotundum"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Vomer"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Vertebral Column / Thoracic Cage",
+              "subtitle": "Vertebral Column / Thoracic Cage",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "invertebral disc": [
+                {
+                  "invertebral disc": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "invertebral foramen": [
+                {
+                  "adipose cells": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "vertebra": [
+                {
+                  "body/centrum": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "vertebral foramen": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "spinous process": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "transverse process": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "superior articular facet": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "inferior articular facet": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "cervical vertebra (7)": [
+                {
+                  "transverse foramen": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "atlas (C1)": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "axis (C2)": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "dens": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "thoracic vertebra (12)": [
+                {
+                  "transverse costal facet": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "superior costal facet": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "inferior costal facet": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "lumbar vertebra (5)": [
+                {
+                  "lumbar vertebra (5)": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "sacrum (5 sacral vertebra fused)": [
+                {
+                  "sacral hiatus": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "sacral canal": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "sacral body": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "sacral foramen": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                },
+                {
+                  "ala": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "coccyx": [
+                {
+                  "coccyx": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "hyoid bone": [
+                {
+                  "hyoid bone": {
+                    "definition": "sample definition",
+                    "image": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "sternum": [
+                {
+                  "manubrium": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "body": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "xiphoid process": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "rib": [
+                {
+                  "head": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "neck": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "tubercle": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "types of ribs": [
+                {
+                  "vertebrosternal ribs (1-7)": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "vertebrochondral ribs (8-10)": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                },
+                {
+                  "vertebral ribs (11-12)": {
+                    "definition": "sample definition",
+                    "image": "1"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 4 Video: Vertebrae",
+              "url": "https://www.youtube.com/embed/yrry-3d5F_8",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 4 Video: Vertebral Column",
+              "url": "https://www.youtube.com/embed/7nxeGENWNXg",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 4 Video: Sacrum",
+              "url": "https://www.youtube.com/embed/-tOwwf4GPMA",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 4 Video: Sternum",
+              "url": "https://www.youtube.com/embed/jrz4bD2DRjM",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 4 Video: Ribs 1",
+              "url": "https://www.youtube.com/embed/uH9AqDyZziU",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 4 Video: Ribs 2",
+              "url": "https://www.youtube.com/embed/uIfqP290hbk",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "description": "Description"
+                }
+              ],
+              "questions": [
+                {
+                  "images": [
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_000"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Intervertebral Disc"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_001"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Sacral Canal"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Sacral Foramen"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Ala"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Coccyx"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Sacral Hiatus"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_002"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Hyoid Bone"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_003"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Head"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Neck"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Tubercle"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_004"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Manubrium"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Body"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Xiphoid"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_005"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Sacral Foramen"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Sacral Body"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_006"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Spinous Process"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Body/ Centrum"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Transverse Process"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Superior Articular Facet"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_007"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Dens"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Transverse Foramen"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Atlas"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station4/Quiz/File_008"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": " Inferior Articular Facet "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Pectoral & Pelvic Girdles",
+              "subtitle": "Pectoral & Pelvic Girdles",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "clavicle": [
+                {
+                  "sternal end": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/6"
+                  }
+                },
+                {
+                  "acromial end": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/6"
+                  }
+                },
+                {
+                  "conoid tubercle": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/6"
+                  }
+                }
+              ]
+            },
+            {
+              "scapula": [
+                {
+                  "acromion": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/3"
+                  }
+                },
+                {
+                  "spine": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/4"
+                  }
+                },
+                {
+                  "coracoid process": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/3"
+                  }
+                },
+                {
+                  "glenoid fossa": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/3"
+                  }
+                },
+                {
+                  "supraspinous fossa": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/4"
+                  }
+                },
+                {
+                  "infraspinou fossa": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/4"
+                  }
+                },
+                {
+                  "subcapular fossa": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/5"
+                  }
+                }
+              ]
+            },
+            {
+              "coxal bone/os coxa": [
+                {
+                  "ilium/iliac crest": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/1"
+                  }
+                },
+                {
+                  "ilium/greater sciatic notch": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/2"
+                  }
+                },
+                {
+                  "ilium/iliac fossa": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/2"
+                  }
+                },
+                {
+                  "pubis/pubic symphysis": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/2"
+                  }
+                },
+                {
+                  "ischium/lesser sciatic notch": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/2"
+                  }
+                },
+                {
+                  "ischium/ischial tuberosity": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/2"
+                  }
+                }
+              ]
+            },
+            {
+              "ischial spine (ilium and ischium)": [
+                {
+                  "ischial spine (ilium and ischium)": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/1"
+                  }
+                }
+              ]
+            },
+            {
+              "obturator foramen (ischium and pubis)": [
+                {
+                  "obturator foramen (ischium and pubis)": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/1"
+                  }
+                }
+              ]
+            },
+            {
+              "acetabulum (all three)": [
+                {
+                  "acetabulum (all three)": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station5/1"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 5 Pectoral Girdle",
+              "url": "https://www.youtube.com/embed/FCgA_B0QC3M",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 5 Pelvic girdle",
+              "url": "https://www.youtube.com/embed/zw1QjefMhlc",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "images": [
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0001"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Iliac Fossa"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Illium"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Pubis"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Pubic Symphysis"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Ischial Tuberosity"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Ischium"
+                        },
+                        {
+                          "label": "G",
+                          "term": "Lesser Sciatic Notch"
+                        },
+                        {
+                          "label": "H",
+                          "term": "Greater Sciatic Notch"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0002"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Glenoid Fossa"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Acromion"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Coracoid Process"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0004"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Acromial End"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Conoid Tubercle"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Sternal end"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0005"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Supraspinous Fossa"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Spine"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Infraspinous Fossa"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0006"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Subscapular Fossa"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Coracoid Process"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Acromion"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0007"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Iliac Crest"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Acetabulum"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Obturator Foramen"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Pubis"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0008"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Ilium"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Ischial Spine"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Ischium"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Hand & Feet",
+              "subtitle": "Hand & Feet",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [
+            {
+              "carpals": [
+                {
+                  "scaphoid": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/3"
+                  }
+                },
+                {
+                  "lunate": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/3"
+                  }
+                },
+                {
+                  "triquetrum": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/3"
+                  }
+                },
+                {
+                  "pisiform": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station/4"
+                  }
+                },
+                {
+                  "trapezium": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                },
+                {
+                  "trapezoid": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                },
+                {
+                  "capitate": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                },
+                {
+                  "hamate": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                }
+              ]
+            },
+            {
+              "metacarpals (I-V)": [
+                {
+                  "metacarpals (I-V)": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/3"
+                  }
+                }
+              ]
+            },
+            {
+              "phalanges": [
+                {
+                  "proximal phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                },
+                {
+                  "middle phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                },
+                {
+                  "distal phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                }
+              ]
+            },
+            {
+              "pollex": [
+                {
+                  "pollex": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/4"
+                  }
+                }
+              ]
+            },
+            {
+              "tarsals": [
+                {
+                  "calcaneus": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                },
+                {
+                  "talus": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                },
+                {
+                  "navicular": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                },
+                {
+                  "cuboid": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                },
+                {
+                  "cuneiforms": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                }
+              ]
+            },
+            {
+              "metatarsals (I-V)": [
+                {
+                  "metatarsals (I-V)": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/2"
+                  }
+                }
+              ]
+            },
+            {
+              "feet phalanges": [
+                {
+                  "feet proximal phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/1"
+                  }
+                },
+                {
+                  "feet middle phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/1"
+                  }
+                },
+                {
+                  "feet distal phalanx": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/1"
+                  }
+                }
+              ]
+            },
+            {
+              "hallux": [
+                {
+                  "hallux": {
+                    "definition": "sample definition",
+                    "image": "Lab1/Station6/1"
+                  }
+                }
+              ]
+            }
+          ],
+          "videos": [
+            {
+              "videotitle": "Station 6 Foot ",
+              "url": "https://www.youtube.com/embed/OFwK5UnlOfg",
+              "description": "description"
+            },
+            {
+              "videotitle": "Station 6 Hand ",
+              "url": "https://www.youtube.com/embed/kAyyKsu9-RQ",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "images": [
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station6/Quiz/IMG_0001"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Calcaneus"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Cuboid"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Navicular"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Proximal Phalanx"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Middle Phalanx"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Distal Phalanx"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station6/Quiz/IMG_0002"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": ""
+                        },
+                        {
+                          "label": "B",
+                          "term": "Navicular"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Cuboid"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Medial Cuneiform"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Metatarsal I"
+                        },
+                        {
+                          "label": "F",
+                          "term": "II"
+                        },
+                        {
+                          "label": "G",
+                          "term": "III"
+                        },
+                        {
+                          "label": "H",
+                          "term": "IV"
+                        },
+                        {
+                          "label": "I",
+                          "term": "V"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0003"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Scaphoid"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Lunate"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Triquetrum"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Hamate"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Capite"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Trapezoid"
+                        },
+                        {
+                          "label": "G",
+                          "term": "Trapezium"
+                        },
+                        {
+                          "label": "H",
+                          "term": "Metacarpal I"
+                        },
+                        {
+                          "label": "I",
+                          "term": "II"
+                        },
+                        {
+                          "label": "J",
+                          "term": "III"
+                        },
+                        {
+                          "label": "K",
+                          "term": "IV"
+                        },
+                        {
+                          "label": "L",
+                          "term": "V"
+                        }
+                      ]
+                    },
+                    {
+                      "metadata": [
+                        {
+                          "imagename": "Lab1/Station5/Quiz/IMG_0004"
+                        }
+                      ],
+                      "labels": [
+                        {
+                          "label": "A",
+                          "term": "Trapezium"
+                        },
+                        {
+                          "label": "B",
+                          "term": "Scaphoid"
+                        },
+                        {
+                          "label": "C",
+                          "term": "Lunate"
+                        },
+                        {
+                          "label": "D",
+                          "term": "Triquetrum"
+                        },
+                        {
+                          "label": "E",
+                          "term": "Pisiform"
+                        },
+                        {
+                          "label": "F",
+                          "term": "Hamate"
+                        },
+                        {
+                          "label": "G",
+                          "term": "Capitate"
+                        },
+                        {
+                          "label": "H",
+                          "term": "Trapezoid"
+                        },
+                        {
+                          "label": "I",
+                          "term": "Proximal Phallanx"
+                        },
+                        {
+                          "label": "J",
+                          "term": "Middle Phallanx"
+                        },
+                        {
+                          "label": "K",
+                          "term": "Distall Phallanx"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": [
+        {
+          "title": "Lab 2",
+          "subtitle": "Heart",
+          "categories": [
+            "heart"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 1",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 2",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 3",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 4",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 5",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 2 / Station 6",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": [
+        {
+          "title": "Lab 3",
+          "subtitle": "Liver",
+          "categories": [
+            "liver"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 1",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 2",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 3",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 4",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 5",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 3 / Station 6",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": [
+        {
+          "title": "Lab 4",
+          "subtitle": "Nervous system",
+          "categories": [
+            "brain",
+            "skeletal"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 1",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 2",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 3",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 4",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 5",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 4 / Station 6",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": [
+        {
+          "title": "Lab 5",
+          "subtitle": "Circulatory system",
+          "categories": [
+            "brain",
+            "skeletal"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 1",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 2",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 3",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 4",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 5",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 5 / Station 6",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": [
+        {
+          "title": "Lab 6",
+          "subtitle": "Muscles",
+          "categories": [
+            "brain",
+            "skeletal"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 1",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 2",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 3",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 4",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 5",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": [
+            {
+              "title": "Lab 6 / Station 6",
+              "subtitle": "Optional subtitle",
+              "categories": [
+                "brain",
+                "skeletal"
+              ]
+            }
+          ],
+          "terms": [],
+          "videos": [
+            {
+              "url": "http://google.com",
+              "description": "description"
+            }
+          ],
+          "quizzes": [
+            {
+              "metadata": [
+                {
+                  "title": "Quiz 1",
+                  "subtitle": "Brain",
+                  "categories": [
+                    "brain",
+                    "skeletal"
+                  ]
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Question 1?",
+                  "answers": [
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": false
+                    },
+                    {
+                      "label": "Answer 1",
+                      "correct": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

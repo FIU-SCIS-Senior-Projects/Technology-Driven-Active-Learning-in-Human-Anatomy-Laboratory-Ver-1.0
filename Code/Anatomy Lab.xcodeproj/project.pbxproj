@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B05EEB11DB06DDD00541658 /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05EEB01DB06DDD00541658 /* MultipleChoiceViewController.swift */; };
+		8B05EEB31DB0734D00541658 /* GeneralQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05EEB21DB0734D00541658 /* GeneralQuizViewModel.swift */; };
+		8B05EEB51DB11F3900541658 /* FinalQuizGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05EEB41DB11F3900541658 /* FinalQuizGradeViewController.swift */; };
+		8B05EEB71DB12CDE00541658 /* FillinTheBlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05EEB61DB12CDE00541658 /* FillinTheBlankViewController.swift */; };
+		8B0767141D930DEE00034678 /* StationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0767131D930DEE00034678 /* StationTableViewController.swift */; };
+		8B7B8A381D9EBCE4008613A2 /* VideoStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B8A371D9EBCE4008613A2 /* VideoStationViewController.swift */; };
+		8B7B8A3A1D9EDFBC008613A2 /* VideosPopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B8A391D9EDFBC008613A2 /* VideosPopUpTableViewController.swift */; };
+		8B7B8A3C1DA4AD0B008613A2 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B8A3B1DA4AD0B008613A2 /* Videos.swift */; };
+		8BBC3BE91DD4E39B0076D0B0 /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC3BE81DD4E39B0076D0B0 /* ZoomImageViewController.swift */; };
+		8BECF63D1DC6EB9F00470520 /* SelectLabsForCustomeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECF63C1DC6EB9F00470520 /* SelectLabsForCustomeQuizViewController.swift */; };
+		8BECF63F1DC6F48400470520 /* SelectStationForCustomizeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECF63E1DC6F48400470520 /* SelectStationForCustomizeQuizViewController.swift */; };
+		8BF105161DAC4AA40096AA09 /* TakeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF105151DAC4AA40096AA09 /* TakeQuizViewController.swift */; };
+		8BF1051A1DAC52A30096AA09 /* TakeQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF105191DAC52A30096AA09 /* TakeQuiz.swift */; };
+		9DA7D60091697C94FE29DBD5 /* Pods_Anatomy_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7E1B1427F40953C58D8E9E /* Pods_Anatomy_Lab.framework */; };
+		C401CB7D1D908E920099EE95 /* GeneralMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB7C1D908E920099EE95 /* GeneralMenuViewController.swift */; };
+		C401CB7F1D908F5B0099EE95 /* MainMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB7E1D908F5B0099EE95 /* MainMenuItem.swift */; };
+		C40807211DE9FD5A004645E6 /* UserProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C408071F1DE9FD5A004645E6 /* UserProfileStoryboard.storyboard */; };
+		C40807231DE9FE88004645E6 /* CounterInfoTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40807221DE9FE88004645E6 /* CounterInfoTileView.swift */; };
+		C40807261DEA00F3004645E6 /* CounterInfoTileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40807241DEA00F3004645E6 /* CounterInfoTileView.xib */; };
+		C40807281DEA04A4004645E6 /* UserProgressInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40807271DEA04A4004645E6 /* UserProgressInformationViewController.swift */; };
+		C41522D81DCE3F6E00D7EE42 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41522D71DCE3F6E00D7EE42 /* ProfileView.swift */; };
+		C41522DA1DCE411200D7EE42 /* ProfileViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41522D91DCE411200D7EE42 /* ProfileViewManager.swift */; };
+		C41975E51DD219C60072DEFD /* UsersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41975E41DD219C60072DEFD /* UsersManager.swift */; };
+		C41975E71DD219D10072DEFD /* QuizzesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41975E61DD219D10072DEFD /* QuizzesManager.swift */; };
+		C420B9FC1D876DBD00EABA7C /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C420B9FB1D876DBD00EABA7C /* Quiz.swift */; };
+		C43B5FD41DDCADAB000872C4 /* LabsTabMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B5FD31DDCADAB000872C4 /* LabsTabMenuViewModel.swift */; };
+		C43B5FD61DDCB7F5000872C4 /* TerminologyTabMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B5FD51DDCB7F5000872C4 /* TerminologyTabMenuViewModel.swift */; };
+		C43B5FD81DDCB989000872C4 /* GeneralTabMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B5FD71DDCB989000872C4 /* GeneralTabMenuViewModel.swift */; };
+		C453A3021D884453006E9DE0 /* MenuItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453A3011D884453006E9DE0 /* MenuItemsManager.swift */; };
+		C457E7B61DBA7FEF00538BB2 /* SearchControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457E7B51DBA7FEF00538BB2 /* SearchControllerDelegate.swift */; };
+		C48092B31D86F03400F4F7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48092B21D86F03400F4F7FC /* AppDelegate.swift */; };
+		C48092BA1D86F03400F4F7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48092B81D86F03400F4F7FC /* Main.storyboard */; };
+		C48092BC1D86F03400F4F7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48092BB1D86F03400F4F7FC /* Assets.xcassets */; };
+		C48092BF1D86F03400F4F7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48092BD1D86F03400F4F7FC /* LaunchScreen.storyboard */; };
+		C48092D61D8700DD00F4F7FC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48092D51D8700DD00F4F7FC /* Utilities.swift */; };
+		C48092D81D8708B500F4F7FC /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48092D71D8708B500F4F7FC /* Lab.swift */; };
+		C48092DC1D87126F00F4F7FC /* lab.json in Resources */ = {isa = PBXBuildFile; fileRef = C48092DB1D87126F00F4F7FC /* lab.json */; };
+		C48CD8461D8C99EA00ECDC1C /* MainTabControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CD8451D8C99EA00ECDC1C /* MainTabControllerDelegate.swift */; };
+		C49042B51DCD240400811FBB /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49042B41DCD240400811FBB /* UserDetailViewController.swift */; };
+		C49042B71DCD301800811FBB /* UserSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49042B61DCD301800811FBB /* UserSplitViewController.swift */; };
+		C49042B91DCD30CF00811FBB /* UserOptionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49042B81DCD30CF00811FBB /* UserOptionsMenuViewController.swift */; };
+		C49042BB1DCD319B00811FBB /* UserSplitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49042BA1DCD319B00811FBB /* UserSplitViewModel.swift */; };
+		C495A8BD1DDBC23500024004 /* GeneralTerminologyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495A8BC1DDBC23500024004 /* GeneralTerminologyViewModel.swift */; };
+		C49DE1C81DA95E1500208301 /* LabTerminologyDelegateDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DE1C71DA95E1500208301 /* LabTerminologyDelegateDatasource.swift */; };
+		C4A72BEF1D905D2C00F2DC86 /* GeneralSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A72BEE1D905D2B00F2DC86 /* GeneralSplitViewController.swift */; };
+		C4A72BF11D9068A300F2DC86 /* GeneralSplitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A72BF01D9068A300F2DC86 /* GeneralSplitViewModel.swift */; };
+		C4B5FE011DE7703C00D31CB6 /* UserOptionsMenuDelegateDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5FE001DE7703C00D31CB6 /* UserOptionsMenuDelegateDatasource.swift */; };
+		C4C0A34D1DA027CD0073569E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4C0A34C1DA027CD0073569E /* GoogleService-Info.plist */; };
+		C4C0A3541DA033E90073569E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A3531DA033E90073569E /* LoginViewController.swift */; };
+		C4C0A3561DA036BD0073569E /* GoogleSignInDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A3551DA036BD0073569E /* GoogleSignInDelegate.swift */; };
+		C4C0A3581DA038A10073569E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A3571DA038A10073569E /* User.swift */; };
+		C4D354931D8C7BAF00BDA6BD /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D354921D8C7BAF00BDA6BD /* Term.swift */; };
+		C4D354951D8C8ABF00BDA6BD /* TerminologyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D354941D8C8ABF00BDA6BD /* TerminologyDetailViewController.swift */; };
+		C4D354971D8C8ACE00BDA6BD /* QuizzesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D354961D8C8ACE00BDA6BD /* QuizzesDetailViewController.swift */; };
+		C4D354991D8C8ADA00BDA6BD /* LabsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D354981D8C8ADA00BDA6BD /* LabsDetailViewController.swift */; };
+		C4D3549B1D8C8D6600BDA6BD /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D3549A1D8C8D6600BDA6BD /* MainTabViewController.swift */; };
+		C4DA02CF1D94849D008C7D84 /* GeneralStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA02CE1D94849D008C7D84 /* GeneralStationViewController.swift */; };
+		C4DA02D11D948597008C7D84 /* GeneralStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA02D01D948597008C7D84 /* GeneralStationViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D7E1B1427F40953C58D8E9E /* Pods_Anatomy_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anatomy_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05EEB01DB06DDD00541658 /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipleChoiceViewController.swift; path = ../MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		8B05EEB21DB0734D00541658 /* GeneralQuizViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralQuizViewModel.swift; sourceTree = "<group>"; };
+		8B05EEB41DB11F3900541658 /* FinalQuizGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalQuizGradeViewController.swift; path = ../FinalQuizGradeViewController.swift; sourceTree = "<group>"; };
+		8B05EEB61DB12CDE00541658 /* FillinTheBlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FillinTheBlankViewController.swift; path = ../FillinTheBlankViewController.swift; sourceTree = "<group>"; };
+		8B0767131D930DEE00034678 /* StationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewController.swift; sourceTree = "<group>"; };
+		8B7B8A371D9EBCE4008613A2 /* VideoStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStationViewController.swift; sourceTree = "<group>"; };
+		8B7B8A391D9EDFBC008613A2 /* VideosPopUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosPopUpTableViewController.swift; sourceTree = "<group>"; };
+		8B7B8A3B1DA4AD0B008613A2 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		8BBC3BE81DD4E39B0076D0B0 /* ZoomImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
+		8BECF63C1DC6EB9F00470520 /* SelectLabsForCustomeQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLabsForCustomeQuizViewController.swift; sourceTree = "<group>"; };
+		8BECF63E1DC6F48400470520 /* SelectStationForCustomizeQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectStationForCustomizeQuizViewController.swift; sourceTree = "<group>"; };
+		8BF105151DAC4AA40096AA09 /* TakeQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeQuizViewController.swift; path = ../TakeQuizViewController.swift; sourceTree = "<group>"; };
+		8BF105191DAC52A30096AA09 /* TakeQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeQuiz.swift; sourceTree = "<group>"; };
+		C401CB7C1D908E920099EE95 /* GeneralMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralMenuViewController.swift; sourceTree = "<group>"; };
+		C401CB7E1D908F5B0099EE95 /* MainMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuItem.swift; sourceTree = "<group>"; };
+		C40807201DE9FD5A004645E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Anatomy Lab/Base.lproj/UserProfileStoryboard.storyboard"; sourceTree = SOURCE_ROOT; };
+		C40807221DE9FE88004645E6 /* CounterInfoTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterInfoTileView.swift; sourceTree = "<group>"; };
+		C40807251DEA00F3004645E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Anatomy Lab/Base.lproj/CounterInfoTileView.xib"; sourceTree = SOURCE_ROOT; };
+		C40807271DEA04A4004645E6 /* UserProgressInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProgressInformationViewController.swift; sourceTree = "<group>"; };
+		C41522D71DCE3F6E00D7EE42 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C41522D91DCE411200D7EE42 /* ProfileViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewManager.swift; sourceTree = "<group>"; };
+		C41975E41DD219C60072DEFD /* UsersManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersManager.swift; sourceTree = "<group>"; };
+		C41975E61DD219D10072DEFD /* QuizzesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesManager.swift; sourceTree = "<group>"; };
+		C420B9FB1D876DBD00EABA7C /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		C43B5FD31DDCADAB000872C4 /* LabsTabMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabsTabMenuViewModel.swift; sourceTree = "<group>"; };
+		C43B5FD51DDCB7F5000872C4 /* TerminologyTabMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminologyTabMenuViewModel.swift; sourceTree = "<group>"; };
+		C43B5FD71DDCB989000872C4 /* GeneralTabMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTabMenuViewModel.swift; sourceTree = "<group>"; };
+		C453A3011D884453006E9DE0 /* MenuItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsManager.swift; sourceTree = "<group>"; };
+		C457E7B51DBA7FEF00538BB2 /* SearchControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchControllerDelegate.swift; sourceTree = "<group>"; };
+		C48092AF1D86F03400F4F7FC /* Anatomy Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anatomy Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48092B21D86F03400F4F7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C48092B91D86F03400F4F7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C48092BB1D86F03400F4F7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Anatomy Lab/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		C48092BE1D86F03400F4F7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C48092D51D8700DD00F4F7FC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C48092D71D8708B500F4F7FC /* Lab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
+		C48092DB1D87126F00F4F7FC /* lab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lab.json; sourceTree = "<group>"; };
+		C48CD8451D8C99EA00ECDC1C /* MainTabControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabControllerDelegate.swift; sourceTree = "<group>"; };
+		C49042B41DCD240400811FBB /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		C49042B61DCD301800811FBB /* UserSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSplitViewController.swift; sourceTree = "<group>"; };
+		C49042B81DCD30CF00811FBB /* UserOptionsMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOptionsMenuViewController.swift; sourceTree = "<group>"; };
+		C49042BA1DCD319B00811FBB /* UserSplitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSplitViewModel.swift; sourceTree = "<group>"; };
+		C495A8BC1DDBC23500024004 /* GeneralTerminologyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTerminologyViewModel.swift; sourceTree = "<group>"; };
+		C49DE1C71DA95E1500208301 /* LabTerminologyDelegateDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabTerminologyDelegateDatasource.swift; sourceTree = "<group>"; };
+		C4A72BEE1D905D2B00F2DC86 /* GeneralSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSplitViewController.swift; sourceTree = "<group>"; };
+		C4A72BF01D9068A300F2DC86 /* GeneralSplitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSplitViewModel.swift; sourceTree = "<group>"; };
+		C4B5FE001DE7703C00D31CB6 /* UserOptionsMenuDelegateDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOptionsMenuDelegateDatasource.swift; sourceTree = "<group>"; };
+		C4C0A34C1DA027CD0073569E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4C0A34E1DA02B7B0073569E /* AnatomyLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnatomyLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4C0A3531DA033E90073569E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4C0A3551DA036BD0073569E /* GoogleSignInDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInDelegate.swift; sourceTree = "<group>"; };
+		C4C0A3571DA038A10073569E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4D354921D8C7BAF00BDA6BD /* Term.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		C4D354941D8C8ABF00BDA6BD /* TerminologyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminologyDetailViewController.swift; sourceTree = "<group>"; };
+		C4D354961D8C8ACE00BDA6BD /* QuizzesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesDetailViewController.swift; sourceTree = "<group>"; };
+		C4D354981D8C8ADA00BDA6BD /* LabsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabsDetailViewController.swift; sourceTree = "<group>"; };
+		C4D3549A1D8C8D6600BDA6BD /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		C4DA02CE1D94849D008C7D84 /* GeneralStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralStationViewController.swift; path = ../GeneralStationViewController.swift; sourceTree = "<group>"; };
+		C4DA02D01D948597008C7D84 /* GeneralStationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralStationViewModel.swift; sourceTree = "<group>"; };
+		DAC7BC109E8BBD5CC06F3E1F /* Pods-Anatomy Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anatomy Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anatomy Lab/Pods-Anatomy Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4C622D74D33750412DC36D /* Pods-Anatomy Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anatomy Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anatomy Lab/Pods-Anatomy Lab.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48092AC1D86F03400F4F7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7D60091697C94FE29DBD5 /* Pods_Anatomy_Lab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFAEBA54169A8BE7DA511E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E1B1427F40953C58D8E9E /* Pods_Anatomy_Lab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41522D51DCE3D3500D7EE42 /* Video View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B8A371D9EBCE4008613A2 /* VideoStationViewController.swift */,
+				8B7B8A391D9EDFBC008613A2 /* VideosPopUpTableViewController.swift */,
+			);
+			name = "Video View Controllers";
+			sourceTree = "<group>";
+		};
+		C41522D61DCE3F5200D7EE42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C41522D71DCE3F6E00D7EE42 /* ProfileView.swift */,
+				C40807221DE9FE88004645E6 /* CounterInfoTileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C420B9FA1D876D7D00EABA7C /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				C420B9FB1D876DBD00EABA7C /* Quiz.swift */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
+		C43B5FD21DDBD570000872C4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C401CB7C1D908E920099EE95 /* GeneralMenuViewController.swift */,
+				8B0767131D930DEE00034678 /* StationTableViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C48092A61D86F03400F4F7FC = {
+			isa = PBXGroup;
+			children = (
+				C48092B11D86F03400F4F7FC /* Anatomy Lab */,
+				C48092B01D86F03400F4F7FC /* Products */,
+				CB9788C74907853171F17494 /* Pods */,
+				ABFAEBA54169A8BE7DA511E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C48092B01D86F03400F4F7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48092AF1D86F03400F4F7FC /* Anatomy Lab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48092B11D86F03400F4F7FC /* Anatomy Lab */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A34E1DA02B7B0073569E /* AnatomyLab-Bridging-Header.h */,
+				C4C0A34C1DA027CD0073569E /* GoogleService-Info.plist */,
+				C4C0A3551DA036BD0073569E /* GoogleSignInDelegate.swift */,
+				C48092DB1D87126F00F4F7FC /* lab.json */,
+				C4D142CC1DEA4F5F00A9AF18 /* Delegates and Datasources */,
+				C48092D41D8700AD00F4F7FC /* Utilities */,
+				C41522D61DCE3F5200D7EE42 /* Views */,
+				C4D142CB1DEA4DDB00A9AF18 /* View Models */,
+				C48092C81D86F52400F4F7FC /* View Controllers */,
+				C48092C71D86F51300F4F7FC /* Managers */,
+				C48092C61D86F50400F4F7FC /* Models */,
+				C48092D11D87000100F4F7FC /* Assets */,
+				C48092B21D86F03400F4F7FC /* AppDelegate.swift */,
+			);
+			path = "Anatomy Lab";
+			sourceTree = "<group>";
+		};
+		C48092C61D86F50400F4F7FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C401CB7E1D908F5B0099EE95 /* MainMenuItem.swift */,
+				C4C0A3571DA038A10073569E /* User.swift */,
+				C4D354911D8C7B9100BDA6BD /* Terminology */,
+				C420B9FA1D876D7D00EABA7C /* Quizzes */,
+				C48092CE1D86F8B900F4F7FC /* Labs */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C48092C71D86F51300F4F7FC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C453A3011D884453006E9DE0 /* MenuItemsManager.swift */,
+				C41522D91DCE411200D7EE42 /* ProfileViewManager.swift */,
+				C41975E41DD219C60072DEFD /* UsersManager.swift */,
+				C41975E61DD219D10072DEFD /* QuizzesManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C48092C81D86F52400F4F7FC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C43B5FD21DDBD570000872C4 /* Menu */,
+				C4C0A3531DA033E90073569E /* LoginViewController.swift */,
+				C49042B31DCD23D900811FBB /* User */,
+				C4C0A3511DA031730073569E /* Delegates */,
+				C4C0A34F1DA031380073569E /* General View Controllers */,
+				C41522D51DCE3D3500D7EE42 /* Video View Controllers */,
+				C4D3548E1D8C7B6400BDA6BD /* Terminology */,
+				C4AEE9991D876C850091A023 /* Quizzes */,
+				C48092C91D86F75E00F4F7FC /* Labs */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C48092C91D86F75E00F4F7FC /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA02CE1D94849D008C7D84 /* GeneralStationViewController.swift */,
+				C4D354981D8C8ADA00BDA6BD /* LabsDetailViewController.swift */,
+			);
+			path = Labs;
+			sourceTree = "<group>";
+		};
+		C48092CE1D86F8B900F4F7FC /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				C48092D71D8708B500F4F7FC /* Lab.swift */,
+				8B7B8A3B1DA4AD0B008613A2 /* Videos.swift */,
+				8BF105191DAC52A30096AA09 /* TakeQuiz.swift */,
+			);
+			path = Labs;
+			sourceTree = "<group>";
+		};
+		C48092D11D87000100F4F7FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C48092B81D86F03400F4F7FC /* Main.storyboard */,
+				C48092BB1D86F03400F4F7FC /* Assets.xcassets */,
+				C48092BD1D86F03400F4F7FC /* LaunchScreen.storyboard */,
+				C408071F1DE9FD5A004645E6 /* UserProfileStoryboard.storyboard */,
+				C40807241DEA00F3004645E6 /* CounterInfoTileView.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C48092D41D8700AD00F4F7FC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C48092D51D8700DD00F4F7FC /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C49042B31DCD23D900811FBB /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C49042B41DCD240400811FBB /* UserDetailViewController.swift */,
+				C49042B81DCD30CF00811FBB /* UserOptionsMenuViewController.swift */,
+				C4B5FE001DE7703C00D31CB6 /* UserOptionsMenuDelegateDatasource.swift */,
+				C40807271DEA04A4004645E6 /* UserProgressInformationViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		C4AEE9991D876C850091A023 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				8BF105151DAC4AA40096AA09 /* TakeQuizViewController.swift */,
+				8B05EEB01DB06DDD00541658 /* MultipleChoiceViewController.swift */,
+				8B05EEB61DB12CDE00541658 /* FillinTheBlankViewController.swift */,
+				8B05EEB41DB11F3900541658 /* FinalQuizGradeViewController.swift */,
+				C4D354961D8C8ACE00BDA6BD /* QuizzesDetailViewController.swift */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
+		C4C0A34F1DA031380073569E /* General View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4A72BEE1D905D2B00F2DC86 /* GeneralSplitViewController.swift */,
+				C4D3549A1D8C8D6600BDA6BD /* MainTabViewController.swift */,
+				8BECF63C1DC6EB9F00470520 /* SelectLabsForCustomeQuizViewController.swift */,
+				8BECF63E1DC6F48400470520 /* SelectStationForCustomizeQuizViewController.swift */,
+				C49042B61DCD301800811FBB /* UserSplitViewController.swift */,
+				8BBC3BE81DD4E39B0076D0B0 /* ZoomImageViewController.swift */,
+			);
+			name = "General View Controllers";
+			sourceTree = "<group>";
+		};
+		C4C0A3511DA031730073569E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		C4D142CB1DEA4DDB00A9AF18 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B05EEB21DB0734D00541658 /* GeneralQuizViewModel.swift */,
+				C4A72BF01D9068A300F2DC86 /* GeneralSplitViewModel.swift */,
+				C4DA02D01D948597008C7D84 /* GeneralStationViewModel.swift */,
+				C49042BA1DCD319B00811FBB /* UserSplitViewModel.swift */,
+				C43B5FD71DDCB989000872C4 /* GeneralTabMenuViewModel.swift */,
+				C43B5FD51DDCB7F5000872C4 /* TerminologyTabMenuViewModel.swift */,
+				C495A8BC1DDBC23500024004 /* GeneralTerminologyViewModel.swift */,
+				C43B5FD31DDCADAB000872C4 /* LabsTabMenuViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		C4D142CC1DEA4F5F00A9AF18 /* Delegates and Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				C457E7B51DBA7FEF00538BB2 /* SearchControllerDelegate.swift */,
+				C48CD8451D8C99EA00ECDC1C /* MainTabControllerDelegate.swift */,
+				C49DE1C71DA95E1500208301 /* LabTerminologyDelegateDatasource.swift */,
+			);
+			path = "Delegates and Datasources";
+			sourceTree = "<group>";
+		};
+		C4D3548E1D8C7B6400BDA6BD /* Terminology */ = {
+			isa = PBXGroup;
+			children = (
+				C4D354941D8C8ABF00BDA6BD /* TerminologyDetailViewController.swift */,
+			);
+			path = Terminology;
+			sourceTree = "<group>";
+		};
+		C4D354911D8C7B9100BDA6BD /* Terminology */ = {
+			isa = PBXGroup;
+			children = (
+				C4D354921D8C7BAF00BDA6BD /* Term.swift */,
+			);
+			path = Terminology;
+			sourceTree = "<group>";
+		};
+		CB9788C74907853171F17494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7BC109E8BBD5CC06F3E1F /* Pods-Anatomy Lab.debug.xcconfig */,
+				DC4C622D74D33750412DC36D /* Pods-Anatomy Lab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48092AE1D86F03400F4F7FC /* Anatomy Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48092C31D86F03400F4F7FC /* Build configuration list for PBXNativeTarget "Anatomy Lab" */;
+			buildPhases = (
+				1F0705F8C957735F2CF8C913 /* [CP] Check Pods Manifest.lock */,
+				C48092AB1D86F03400F4F7FC /* Sources */,
+				C48092AC1D86F03400F4F7FC /* Frameworks */,
+				C48092AD1D86F03400F4F7FC /* Resources */,
+				E1328A83330AAF0E98C25C34 /* [CP] Embed Pods Frameworks */,
+				4C54A21711370EF68A74F6E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anatomy Lab";
+			productName = "Anatomy Lab";
+			productReference = C48092AF1D86F03400F4F7FC /* Anatomy Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48092A71D86F03400F4F7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hector Cen";
+				TargetAttributes = {
+					C48092AE1D86F03400F4F7FC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C48092AA1D86F03400F4F7FC /* Build configuration list for PBXProject "Anatomy Lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48092A61D86F03400F4F7FC;
+			productRefGroup = C48092B01D86F03400F4F7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48092AE1D86F03400F4F7FC /* Anatomy Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48092AD1D86F03400F4F7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48092BF1D86F03400F4F7FC /* LaunchScreen.storyboard in Resources */,
+				C48092BC1D86F03400F4F7FC /* Assets.xcassets in Resources */,
+				C40807211DE9FD5A004645E6 /* UserProfileStoryboard.storyboard in Resources */,
+				C4C0A34D1DA027CD0073569E /* GoogleService-Info.plist in Resources */,
+				C40807261DEA00F3004645E6 /* CounterInfoTileView.xib in Resources */,
+				C48092BA1D86F03400F4F7FC /* Main.storyboard in Resources */,
+				C48092DC1D87126F00F4F7FC /* lab.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F0705F8C957735F2CF8C913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C54A21711370EF68A74F6E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anatomy Lab/Pods-Anatomy Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1328A83330AAF0E98C25C34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anatomy Lab/Pods-Anatomy Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48092AB1D86F03400F4F7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF1051A1DAC52A30096AA09 /* TakeQuiz.swift in Sources */,
+				C4D354931D8C7BAF00BDA6BD /* Term.swift in Sources */,
+				C49042B51DCD240400811FBB /* UserDetailViewController.swift in Sources */,
+				C43B5FD41DDCADAB000872C4 /* LabsTabMenuViewModel.swift in Sources */,
+				C43B5FD81DDCB989000872C4 /* GeneralTabMenuViewModel.swift in Sources */,
+				C4A72BEF1D905D2C00F2DC86 /* GeneralSplitViewController.swift in Sources */,
+				C401CB7D1D908E920099EE95 /* GeneralMenuViewController.swift in Sources */,
+				8B7B8A3C1DA4AD0B008613A2 /* Videos.swift in Sources */,
+				C41975E51DD219C60072DEFD /* UsersManager.swift in Sources */,
+				C420B9FC1D876DBD00EABA7C /* Quiz.swift in Sources */,
+				8B05EEB51DB11F3900541658 /* FinalQuizGradeViewController.swift in Sources */,
+				C4C0A3541DA033E90073569E /* LoginViewController.swift in Sources */,
+				8BF105161DAC4AA40096AA09 /* TakeQuizViewController.swift in Sources */,
+				8B7B8A3A1D9EDFBC008613A2 /* VideosPopUpTableViewController.swift in Sources */,
+				C43B5FD61DDCB7F5000872C4 /* TerminologyTabMenuViewModel.swift in Sources */,
+				C453A3021D884453006E9DE0 /* MenuItemsManager.swift in Sources */,
+				C40807231DE9FE88004645E6 /* CounterInfoTileView.swift in Sources */,
+				C495A8BD1DDBC23500024004 /* GeneralTerminologyViewModel.swift in Sources */,
+				C401CB7F1D908F5B0099EE95 /* MainMenuItem.swift in Sources */,
+				C49DE1C81DA95E1500208301 /* LabTerminologyDelegateDatasource.swift in Sources */,
+				C41522DA1DCE411200D7EE42 /* ProfileViewManager.swift in Sources */,
+				C457E7B61DBA7FEF00538BB2 /* SearchControllerDelegate.swift in Sources */,
+				8B05EEB31DB0734D00541658 /* GeneralQuizViewModel.swift in Sources */,
+				C48092B31D86F03400F4F7FC /* AppDelegate.swift in Sources */,
+				8B05EEB71DB12CDE00541658 /* FillinTheBlankViewController.swift in Sources */,
+				C4B5FE011DE7703C00D31CB6 /* UserOptionsMenuDelegateDatasource.swift in Sources */,
+				C4D3549B1D8C8D6600BDA6BD /* MainTabViewController.swift in Sources */,
+				C49042B91DCD30CF00811FBB /* UserOptionsMenuViewController.swift in Sources */,
+				C41975E71DD219D10072DEFD /* QuizzesManager.swift in Sources */,
+				8B05EEB11DB06DDD00541658 /* MultipleChoiceViewController.swift in Sources */,
+				C4C0A3561DA036BD0073569E /* GoogleSignInDelegate.swift in Sources */,
+				8B0767141D930DEE00034678 /* StationTableViewController.swift in Sources */,
+				C49042B71DCD301800811FBB /* UserSplitViewController.swift in Sources */,
+				C48CD8461D8C99EA00ECDC1C /* MainTabControllerDelegate.swift in Sources */,
+				C4DA02D11D948597008C7D84 /* GeneralStationViewModel.swift in Sources */,
+				C48092D61D8700DD00F4F7FC /* Utilities.swift in Sources */,
+				C49042BB1DCD319B00811FBB /* UserSplitViewModel.swift in Sources */,
+				8BECF63F1DC6F48400470520 /* SelectStationForCustomizeQuizViewController.swift in Sources */,
+				8BECF63D1DC6EB9F00470520 /* SelectLabsForCustomeQuizViewController.swift in Sources */,
+				C4D354951D8C8ABF00BDA6BD /* TerminologyDetailViewController.swift in Sources */,
+				8BBC3BE91DD4E39B0076D0B0 /* ZoomImageViewController.swift in Sources */,
+				C41522D81DCE3F6E00D7EE42 /* ProfileView.swift in Sources */,
+				C4DA02CF1D94849D008C7D84 /* GeneralStationViewController.swift in Sources */,
+				C4A72BF11D9068A300F2DC86 /* GeneralSplitViewModel.swift in Sources */,
+				8B7B8A381D9EBCE4008613A2 /* VideoStationViewController.swift in Sources */,
+				C4D354991D8C8ADA00BDA6BD /* LabsDetailViewController.swift in Sources */,
+				C48092D81D8708B500F4F7FC /* Lab.swift in Sources */,
+				C4D354971D8C8ACE00BDA6BD /* QuizzesDetailViewController.swift in Sources */,
+				C4C0A3581DA038A10073569E /* User.swift in Sources */,
+				C40807281DEA04A4004645E6 /* UserProgressInformationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C408071F1DE9FD5A004645E6 /* UserProfileStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40807201DE9FD5A004645E6 /* Base */,
+			);
+			name = UserProfileStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C40807241DEA00F3004645E6 /* CounterInfoTileView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40807251DEA00F3004645E6 /* Base */,
+			);
+			name = CounterInfoTileView.xib;
+			sourceTree = "<group>";
+		};
+		C48092B81D86F03400F4F7FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48092B91D86F03400F4F7FC /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Anatomy Lab";
+			sourceTree = SOURCE_ROOT;
+		};
+		C48092BD1D86F03400F4F7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48092BE1D86F03400F4F7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48092C11D86F03400F4F7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C48092C21D86F03400F4F7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48092C41D86F03400F4F7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC7BC109E8BBD5CC06F3E1F /* Pods-Anatomy Lab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Anatomy Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.Anatomy-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anatomy Lab/AnatomyLab-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C48092C51D86F03400F4F7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4C622D74D33750412DC36D /* Pods-Anatomy Lab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Anatomy Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.Anatomy-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anatomy Lab/AnatomyLab-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48092AA1D86F03400F4F7FC /* Build configuration list for PBXProject "Anatomy Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48092C11D86F03400F4F7FC /* Debug */,
+				C48092C21D86F03400F4F7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48092C31D86F03400F4F7FC /* Build configuration list for PBXNativeTarget "Anatomy Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48092C41D86F03400F4F7FC /* Debug */,
+				C48092C51D86F03400F4F7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48092A71D86F03400F4F7FC /* Project object */;
+}

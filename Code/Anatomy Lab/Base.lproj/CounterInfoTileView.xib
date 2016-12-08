@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CounterInfoTileView" customModule="Anatomy_Lab" customModuleProvider="target">
+            <connections>
+                <outlet property="counterLabel" destination="SWc-1h-kLB" id="oU5-pN-6xg"/>
+                <outlet property="titleLabel" destination="Alc-Jv-fx8" id="Lgc-nV-Vp8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alc-Jv-fx8">
+                    <rect key="frame" x="8" y="8" width="180" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="gEv-qi-7aR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gEv-qi-7aR"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWc-1h-kLB">
+                    <rect key="frame" x="208" y="8" width="84" height="84"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="mrp-kt-Qdx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SWc-1h-kLB" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="0qh-83-UZd"/>
+                <constraint firstItem="SWc-1h-kLB" firstAttribute="leading" secondItem="Alc-Jv-fx8" secondAttribute="trailing" constant="20" id="LZX-ts-ifO"/>
+                <constraint firstAttribute="bottom" secondItem="Alc-Jv-fx8" secondAttribute="bottom" constant="20" symbolic="YES" id="Yh5-Rv-9fp"/>
+                <constraint firstItem="Alc-Jv-fx8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="Zlw-UK-qDp"/>
+                <constraint firstItem="SWc-1h-kLB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="ejJ-78-9x5"/>
+                <constraint firstItem="Alc-Jv-fx8" firstAttribute="firstBaseline" secondItem="SWc-1h-kLB" secondAttribute="firstBaseline" id="rnL-uY-ZGT"/>
+                <constraint firstItem="SWc-1h-kLB" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="zww-Vs-wgz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="158" y="335"/>
+        </view>
+    </objects>
+</document>

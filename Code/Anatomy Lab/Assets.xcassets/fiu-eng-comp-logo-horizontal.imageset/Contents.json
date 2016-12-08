@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "Eng&Comp-hrz-COLOR.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

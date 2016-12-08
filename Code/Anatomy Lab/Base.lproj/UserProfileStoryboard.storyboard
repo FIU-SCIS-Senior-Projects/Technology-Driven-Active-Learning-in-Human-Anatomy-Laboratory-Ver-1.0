@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Progress Information View Controller-->
+        <scene sceneID="u9l-TD-tXp">
+            <objects>
+                <viewController storyboardIdentifier="userProgressInformationStoryboard" id="KZR-tz-Oga" customClass="UserProgressInformationViewController" customModule="Anatomy_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jzi-ei-Hd0"/>
+                        <viewControllerLayoutGuide type="bottom" id="QhP-It-wKl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="776-5j-MEb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VEl-eq-8Rg">
+                                <rect key="frame" x="20" y="28" width="560" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pt-wf-rI9" customClass="CounterInfoTileView" customModule="Anatomy_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZC-x8-9n6" customClass="CounterInfoTileView" customModule="Anatomy_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="187" y="0.0" width="186" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twX-GZ-FVy" customClass="CounterInfoTileView" customModule="Anatomy_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="373" y="0.0" width="187" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="wAa-JX-Zh0"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="VEl-eq-8Rg" secondAttribute="leading" id="NnK-C7-OMQ"/>
+                            <constraint firstItem="VEl-eq-8Rg" firstAttribute="top" secondItem="jzi-ei-Hd0" secondAttribute="bottom" constant="8" symbolic="YES" id="aOn-gB-EJK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VEl-eq-8Rg" secondAttribute="trailing" id="h0g-gf-Nq1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gyR-ZC-Lox"/>
+                    <connections>
+                        <outlet property="completedInfoTile" destination="6Pt-wf-rI9" id="uZ3-a8-6oJ"/>
+                        <outlet property="favoriteInfoTile" destination="sZC-x8-9n6" id="HYW-b5-Lv5"/>
+                        <outlet property="pendingInfoTile" destination="twX-GZ-FVy" id="zEE-yN-fFv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L1l-WN-aD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="225"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cxj-my-pf0">
+            <objects>
+                <navigationController storyboardIdentifier="userProgressInformationNavStoryboard" automaticallyAdjustsScrollViewInsets="NO" id="ooN-xv-cNt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zD3-FQ-afw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KZR-tz-Oga" kind="relationship" relationship="rootViewController" id="pOC-fo-i6w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9B-Ov-vp1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1045" y="225"/>
+        </scene>
+    </scenes>
+</document>
